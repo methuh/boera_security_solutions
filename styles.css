@@ -1,4 +1,4 @@
-/* Reset and Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +10,6 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
-
-/* Navbar Styles */
 .navbar {
     position: fixed;
     top: 0;
@@ -83,10 +81,7 @@ body {
     height: 2px;
     background-color: #2c3e50;
     transition: all 0.3s ease;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
+}@media (max-width: 768px) {
     .nav-links {
         position: fixed;
         top: 0;
@@ -127,12 +122,7 @@ body {
     }
 
     .hamburger.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -5px);
-    }
-}
-
-/* Hero Section Styles */
-.hero {
+        transform: rotate(-45deg) translate(7px, -5px);}}.hero {
     height: 100vh;
     width: 100%;
     overflow: hidden;
@@ -279,31 +269,24 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-
 .dot.active {
     background: #fff;
 }
-
-/* Highlights Section Styles */
 .highlights {
     padding: 5rem 5%;
     background: #f8f9fa;
 }
-
 .section-header {
     text-align: center;
     margin-bottom: 3rem;
 }
-
 .section-header h2 {
     font-size: 2.5rem;
     color: #2c3e50;
     margin-bottom: 1rem;
     position: relative;
     display: inline-block;
-}
-
-.section-header h2::after {
+}.section-header h2::after {
     content: '';
     position: absolute;
     bottom: -10px;
@@ -353,8 +336,7 @@ body {
 }
 
 .highlight-card:hover {
-    transform: translateY(-10px);
-}
+    transform: translateY(-10px);}
 
 .highlight-card:hover::before {
     opacity: 0.95;
@@ -433,46 +415,32 @@ body {
 }
 
 .highlight-card:hover .card-hover ul li:nth-child(3) {
-    transition-delay: 0.3s;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
+    transition-delay: 0.3s;}@media (max-width: 768px) {
     .highlights {
         padding: 3rem 5%;
     }
-
     .section-header h2 {
         font-size: 2rem;
     }
-
     .highlight-card {
-        min-height: 250px;
-    }
-}
-
-/* About Section Styles */
+        min-height: 250px; }}
 .about {
     padding: 5rem 5%;
     background: #fff;
 }
-
 .about-container {
     max-width: 1400px;
     margin: 0 auto;
 }
-
 .about-main {
     margin-bottom: 4rem;
 }
-
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
 }
-
 .about-image {
     position: relative;
     border-radius: 20px;
@@ -510,15 +478,12 @@ body {
 
 @keyframes float {
     0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-}
-
+    50% { transform: translateY(-10px); }}
 .experience-badge .years {
     font-size: 2rem;
     font-weight: bold;
     line-height: 1;
 }
-
 .experience-badge .text {
     font-size: 0.9rem;
     margin-top: 5px;
@@ -541,16 +506,12 @@ body {
     margin-bottom: 1.5rem;
     color: #666;
     line-height: 1.8;
-}
-
-/* Vision & Mission Styles */
-.vision-mission {
+}.vision-mission {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-top: 4rem;
 }
-
 .vm-card {
     background: #fff;
     padding: 3rem 2rem;
@@ -561,7 +522,6 @@ body {
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
-
 .vm-card::before {
     content: '';
     position: absolute;
@@ -572,16 +532,13 @@ body {
     background: #3498db;
     transition: all 0.3s ease;
 }
-
 .vm-card:hover {
     transform: translateY(-10px);
 }
-
 .vm-card:hover::before {
     height: 100%;
     opacity: 0.1;
 }
-
 .vm-icon {
     font-size: 2.5rem;
     color: #3498db;
@@ -598,8 +555,6 @@ body {
     color: #666;
     line-height: 1.8;
 }
-
-/* Responsive Adjustments */
 @media (max-width: 1024px) {
     .about-content {
         grid-template-columns: 1fr;
@@ -607,9 +562,7 @@ body {
     }
 
     .about-image {
-        max-height: 500px;
-    }
-}
+        max-height: 500px;}}
 
 @media (max-width: 768px) {
     .vision-mission {
@@ -632,11 +585,8 @@ body {
     }
 
     .highlight-text {
-        font-size: 1.1rem;
-    }
-}
+        font-size: 1.1rem;}}
 
-/* Services Section Styles */
 .services {
     padding: 5rem 5%;
     background: #f8f9fa;
@@ -724,20 +674,16 @@ body {
 .service-card:hover .service-link {
     color: #fff;
 }
-
-/* Why Choose Us Styles */
 .why-choose-us {
     max-width: 1400px;
     margin: 0 auto;
     padding-top: 3rem;
 }
-
 .choose-us-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
-
 .choose-card {
     background: #fff;
     padding: 2.5rem;
@@ -792,10 +738,7 @@ body {
 .choose-card:hover .card-number {
     color: rgba(52, 152, 219, 0.2);
     transform: scale(1.1);
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
+}@media (max-width: 768px) {
     .services-container,
     .choose-us-container {
         grid-template-columns: 1fr;
@@ -807,11 +750,7 @@ body {
     }
 
     .card-number {
-        font-size: 2.5rem;
-    }
-}
-
-/* Solutions Section Styles */
+        font-size: 2.5rem;}}
 .solutions {
     padding: 5rem 5%;
     background: #fff;
@@ -854,7 +793,6 @@ body {
 .solution-card:hover .solution-image img {
     transform: scale(1.1);
 }
-
 .solution-overlay {
     position: absolute;
     top: 0;
@@ -934,15 +872,11 @@ body {
 .solution-features i {
     color: #3498db;
     font-size: 1rem;
-}
-
-/* Hover Animation for Features */
-.solution-features li {
+}.solution-features li {
     opacity: 0.8;
     transform: translateX(-10px);
     transition: all 0.3s ease;
 }
-
 .solution-card:hover .solution-features li {
     opacity: 1;
     transform: translateX(0);
@@ -959,8 +893,6 @@ body {
 .solution-card:hover .solution-features li:nth-child(3) {
     transition-delay: 0.3s;
 }
-
-/* Responsive Adjustments */
 @media (max-width: 768px) {
     .solutions-container {
         grid-template-columns: 1fr;
@@ -971,11 +903,7 @@ body {
     }
 
     .solution-content {
-        padding: 1.5rem;
-    }
-}
-
-/* Contact Section Styles */
+        padding: 1.5rem;}}
 .contact {
     padding: 5rem 5%;
     background: #f8f9fa;
@@ -988,8 +916,6 @@ body {
     grid-template-columns: 1fr 1.5fr;
     gap: 3rem;
 }
-
-/* Contact Info Cards */
 .contact-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1025,10 +951,7 @@ body {
 .info-card p {
     color: #666;
     font-size: 0.95rem;
-    line-height: 1.6;
-}
-
-/* Contact Form Styles */
+    line-height: 1.6;}
 .contact-form-container {
     background: #fff;
     padding: 3rem;
@@ -1117,8 +1040,6 @@ body {
 .submit-btn:hover i {
     transform: translateX(5px);
 }
-
-/* Map Container Styles */
 .map-container {
     width: 100%;
     max-width: 1400px;
@@ -1129,21 +1050,13 @@ body {
 }
 
 .map-container iframe {
-    display: block;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 1024px) {
+    display: block;}@media (max-width: 1024px) {
     .contact-container {
         grid-template-columns: 1fr;
     }
 
     .contact-info {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);}}@media (max-width: 768px) {
     .contact-info {
         grid-template-columns: 1fr;
     }
@@ -1153,21 +1066,13 @@ body {
     }
 
     .map-container {
-        margin-top: 2rem;
-    }
-}
-
-@media (max-width: 480px) {
+        margin-top: 2rem;}}@media (max-width: 480px) {
     .form-group label {
         font-size: 0.9rem;
     }
 
     .submit-btn {
-        width: 100%;
-    }
-}
-
-/* Footer Styles */
+        width: 100%;}}
 .footer {
     background: #2c3e50;
     color: #fff;
@@ -1313,16 +1218,9 @@ body {
 
 .footer-bottom-links a:hover {
     color: #3498db;
-}
-
-/* Updated Responsive Adjustments */
-@media (max-width: 992px) {
+}@media (max-width: 992px) {
     .footer-content {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media (max-width: 768px) {
+        grid-template-columns: 1fr 1fr 1fr;}}@media (max-width: 768px) {
     .footer-content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -1334,6 +1232,4 @@ body {
     }
 
     .footer-bottom-links {
-        justify-content: center;
-    }
-}
+        justify-content: center;}}
