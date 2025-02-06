@@ -159,6 +159,9 @@ body {
     height: 100%;
     object-fit: cover;
     filter: brightness(0.7);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .slide-content {
