@@ -159,9 +159,7 @@ body {
     height: 100%;
     object-fit: cover;
     filter: brightness(0.7);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    
 }
 
 .slide-content {
@@ -425,6 +423,11 @@ body {
     .section-header h2 {
         font-size: 2rem;
     }
+    .slide img {
+      background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+      }
     .highlight-card {
         min-height: 250px; }}
 .about {
